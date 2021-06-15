@@ -1,0 +1,246 @@
+$cyan: hsl(180, 66%, 49%);
+$violet: hsl(257, 27%, 26%);
+
+$red: hsl(0, 87%, 67%);
+
+$Gray: hsl(0, 0%, 75%);
+$GrayishViolet: hsl(257, 7%, 63%);
+$VeryDarkBlue: hsl(255, 11%, 22%);
+$VeryDarkViolet: hsl(260, 8%, 14%);
+
+div.linksList {
+    padding-top: 100px;
+    max-width: 1280px;
+    width: 100%;
+    div.linkBox {
+        width: 100%;
+        height: 80px;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 20px;
+   
+        h4 {
+            font-weight: 400;
+            color: $VeryDarkViolet;
+            width: 65%;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            padding-left: 30px;
+        }
+        div.rightLink {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            width: 28%;
+            justify-content: space-between;
+            padding-right: 30px;
+            
+            a {
+                color: $cyan;
+                text-decoration: none;
+            }
+            button {
+                width: 100px;
+                height: 50%;
+                font-family: 'Poppins', sans-serif;
+                border: none;
+                background-color: $cyan;
+                font-weight: 700;
+                color: white;
+                border-radius: 5px;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1280px) {
+    div.linksList {
+        padding-top: 100px;
+        max-width: 1280px;
+        width: 100%;
+        div.linkBox {
+            width: 100%;
+            height: 80px;
+            border-radius: 5px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            margin-bottom: 20px;
+            h4 {
+                font-weight: 400;
+                color: $VeryDarkViolet;
+                width: 65%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                padding-left: 30px;
+            }
+            div.rightLink {
+                display: flex;
+                align-items: center;
+                height: 100%;
+                width:50%;
+                justify-content: flex-end;
+                padding-right: 30px;
+                a {
+                    color: $cyan;
+                }
+                button {
+                    width: 100px;
+                    height: 50%;
+                    font-family: 'Poppins', sans-serif;
+                    border: none;
+                    background-color: $cyan;
+                    font-weight: 700;
+                    color: white;
+                    border-radius: 5px;
+                    margin-left: 20px;
+    
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 840px) {
+    div.linksList {
+        padding-top: 100px;
+        max-width: 1280px;
+        div.linkBox {
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 5px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+           padding-bottom: 20px;
+            margin-bottom: 20px;
+            height: auto;
+          
+            h4 {
+                font-weight: 400;
+                color: $VeryDarkViolet;
+                text-align: center;
+                padding: 15px;
+                width: 100%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                border-bottom: 1px solid $Gray;
+            }
+            div.rightLink {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                height: 100%;
+                width:100%;
+                justify-content: flex-end;
+                a {
+                    color: $cyan;
+                    margin-top: 10px ;
+
+                }
+                button {
+                    width: 90%;
+                    height: 40px;
+                    font-family: 'Poppins', sans-serif;
+                    border: none;
+                    background-color: $cyan;
+                    font-weight: 700;
+                    color: white;
+                    border-radius: 5px;
+                    margin: 10px 0;
+
+    
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 620px) {
+    div.linksList {
+        padding-top: 150px;
+        padding-bottom: 50px;
+        max-width: 1280px;
+        width: 100%;
+        div.linkBox {
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 5px;
+            background-color: white;
+            display: flex;
+            
+           
+            flex-direction: column;
+            padding: 0;
+           padding-bottom: 0;
+            margin-bottom: 20px;
+            height: auto;
+          
+            h4 {
+                font-weight: 400;
+                color: $VeryDarkViolet;
+                text-align: center;
+                padding: 15px;
+                width: 100%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                border-bottom: 1px solid $Gray;
+            }
+            div.rightLink {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                height: 100%;
+                width:100%;
+                padding: 0 15px ;
+                justify-content: flex-start;
+                a {
+                    color: $cyan;
+                    margin-top: 15px ;
+
+                }
+                button {
+                    width: 95%;
+                    height: 40px;
+                    font-family: 'Poppins', sans-serif;
+                    border: none;
+                    background-color: $cyan;
+                    font-weight: 700;
+                    color: white;
+                    border-radius: 5px;
+                  
+                    margin: 15px auto;
+
+    
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+}

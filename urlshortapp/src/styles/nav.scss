@@ -1,0 +1,273 @@
+$cyan: hsl(180, 66%, 49%);
+$violet: hsl(257, 27%, 26%);
+
+$red: hsl(0, 87%, 67%);
+
+$Gray: hsl(0, 0%, 75%);
+$GrayishViolet: hsl(257, 7%, 63%);
+$VeryDarkBlue: hsl(255, 11%, 22%);
+$VeryDarkViolet: hsl(260, 8%, 14%);
+
+
+div.navContainer {
+    width: 100%;
+    font-size: 18px;
+   nav {
+       display: flex;
+       max-width: 1280px;
+       justify-content: space-between;
+       align-items: center;
+       height: 80px;
+       margin: 0 auto;
+       ul {
+           display: flex;
+           list-style: none;
+           align-items: center;
+           justify-content: space-between;
+           height: 100%;
+           width: 40%;
+           li {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               img {
+
+               }
+               a {
+                text-decoration: none;
+                color: $GrayishViolet;
+               }
+           }
+       }
+       div.loginZone {
+           display: flex;
+           width: 20%;
+           justify-content: space-evenly;
+           align-items: center;
+           a {
+            text-decoration: none;
+            color: $GrayishViolet;
+           }
+           button {
+            width: 100px;
+            background-color: $cyan;
+            border: none;
+            border-radius: 999px;
+            padding: 10px 0;
+            font-family: 'Poppins', sans-serif;
+            a {
+                color: white;
+                font-weight: 600;
+           
+
+            }
+           }
+       }
+   } 
+}
+@media(max-width: 1280px) 
+{
+    div.navContainer {
+        width: 100%;
+        font-size: 18px;
+       nav {
+           display: flex;
+           max-width: 1280px;
+           justify-content: space-between;
+           align-items: center;
+           height: 80px;
+           margin: 0 auto;
+           padding-left: 50px;
+           ul {
+               display: flex;
+               list-style: none;
+               align-items: center;
+               justify-content: space-between;
+               height: 100%;
+               width: 50%;
+               li {
+                   padding:20px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   img {
+                    height: 30px;
+                   }
+                   a {
+                    text-decoration: none;
+                    color: $GrayishViolet;
+                    font-size: 14px;
+                   }
+               }
+           }
+           div.loginZone {
+               display: flex;
+               width: 15%;
+               justify-content: space-between;
+               align-items: center;
+               a {
+                text-decoration: none;
+                color: $GrayishViolet;
+                font-size: 14px;
+               }
+               button {
+                width: 80px;
+                background-color: $cyan;
+                border: none;
+                border-radius: 999px;
+                padding: 10px 0;
+                a {
+                    color: white;
+                    font-weight: 600;
+               
+    
+                }
+               }
+           }
+       } 
+    }
+}
+@media(max-width: 820px) 
+{
+    div.navContainer {
+        width: 100%;
+        font-size: 18px;
+       nav {
+           display: flex;
+           max-width: 1280px;
+           justify-content: space-between;
+           align-items: center;
+           height: 80px;
+           margin: 0 auto;
+           padding: 0;
+           ul {
+               display: flex;
+               list-style: none;
+               align-items: center;
+               justify-content: space-evenly;
+               height: 100%;
+               width: 70%;
+               li {
+                   padding: 10px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   img {
+                    height: 30px;
+                   }
+                   a {
+                    text-decoration: none;
+                    color: $GrayishViolet;
+                    font-size: 14px;
+                   }
+               }
+           }
+           div.loginZone {
+               display: flex;
+               width: 30%;
+               justify-content: space-evenly;
+               align-items: center;
+               a {
+                text-decoration: none;
+                color: $GrayishViolet;
+                font-size: 14px;
+               }
+               button {
+                width: 80px;
+                background-color: $cyan;
+                border: none;
+                border-radius: 999px;
+                padding: 10px 0;
+                a {
+                    color: white;
+                    font-weight: 600;
+               
+    
+                }
+               }
+           }
+       } 
+    }
+}
+
+div.MobileContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    height: 80px;
+    img {
+  height: 40px;
+    }
+    button {
+        border: none;
+        background-color: transparent;
+        img.hamb {
+            height: 30px;
+          }
+    }
+  
+    nav {
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        transition: 0.4s;
+        height: 380px;
+        width: 90%;
+        background-color: $violet;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 0;
+        z-index: 9999;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            height: 60%;
+            border-bottom: 1px solid $GrayishViolet;
+            width: 90%;
+            li {
+                padding: 10px 0;
+                a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+            }
+        }
+        div.loginZone {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            height: 40%;
+            a {
+             text-decoration: none;
+             color: white;
+             font-size: 20px;
+             padding: 10px 0;
+            }
+            button {
+             width: 80px;
+             background-color: $cyan;
+             border: none;
+             border-radius: 999px;
+             padding: 10px 0;
+             width: 85%;
+             font-family: 'Poppins', sans-serif;
+             a {
+                 color: white;
+                 font-weight: 600;
+                 font-size: 20px;
+ 
+             }
+            }
+        }
+    }
+}

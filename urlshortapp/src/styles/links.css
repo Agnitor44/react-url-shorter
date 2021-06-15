@@ -1,0 +1,281 @@
+div.linksList {
+  padding-top: 100px;
+  max-width: 1280px;
+  width: 100%;
+}
+
+div.linksList div.linkBox {
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+div.linksList div.linkBox h4 {
+  font-weight: 400;
+  color: #232127;
+  width: 65%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-left: 30px;
+}
+
+div.linksList div.linkBox div.rightLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 28%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 30px;
+}
+
+div.linksList div.linkBox div.rightLink a {
+  color: #2acfcf;
+  text-decoration: none;
+}
+
+div.linksList div.linkBox div.rightLink button {
+  width: 100px;
+  height: 50%;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  background-color: #2acfcf;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+}
+
+div.linksList div.linkBox div.rightLink button:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 1280px) {
+  div.linksList {
+    padding-top: 100px;
+    max-width: 1280px;
+    width: 100%;
+  }
+  div.linksList div.linkBox {
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  div.linksList div.linkBox h4 {
+    font-weight: 400;
+    color: #232127;
+    width: 65%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 30px;
+  }
+  div.linksList div.linkBox div.rightLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 50%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 30px;
+  }
+  div.linksList div.linkBox div.rightLink a {
+    color: #2acfcf;
+  }
+  div.linksList div.linkBox div.rightLink button {
+    width: 100px;
+    height: 50%;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #2acfcf;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  div.linksList div.linkBox div.rightLink button:hover {
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 840px) {
+  div.linksList {
+    padding-top: 100px;
+    max-width: 1280px;
+  }
+  div.linksList div.linkBox {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  div.linksList div.linkBox h4 {
+    font-weight: 400;
+    color: #232127;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 1px solid #bfbfbf;
+  }
+  div.linksList div.linkBox div.rightLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  div.linksList div.linkBox div.rightLink a {
+    color: #2acfcf;
+    margin-top: 10px;
+  }
+  div.linksList div.linkBox div.rightLink button {
+    width: 90%;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #2acfcf;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  div.linksList div.linkBox div.rightLink button:hover {
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 620px) {
+  div.linksList {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    max-width: 1280px;
+    width: 100%;
+  }
+  div.linksList div.linkBox {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  div.linksList div.linkBox h4 {
+    font-weight: 400;
+    color: #232127;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 1px solid #bfbfbf;
+  }
+  div.linksList div.linkBox div.rightLink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  div.linksList div.linkBox div.rightLink a {
+    color: #2acfcf;
+    margin-top: 15px;
+  }
+  div.linksList div.linkBox div.rightLink button {
+    width: 95%;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #2acfcf;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    margin: 15px auto;
+  }
+  div.linksList div.linkBox div.rightLink button:hover {
+    opacity: 0.7;
+  }
+}
+/*# sourceMappingURL=links.css.map */

@@ -1,0 +1,175 @@
+section.footer {
+  background-color: #232127;
+}
+
+section.footer div.footerWrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 70px 0;
+  width: 100%;
+  position: relative;
+}
+
+section.footer div.footerWrap img.logoS {
+  position: absolute;
+  left: 0;
+}
+
+section.footer div.footerWrap div.footContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 70%;
+  float: right;
+}
+
+section.footer div.footerWrap div.footContainer ul {
+  list-style: none;
+}
+
+section.footer div.footerWrap div.footContainer ul li {
+  font-weight: 400;
+  color: #9e9aa7;
+}
+
+section.footer div.footerWrap div.footContainer ul li:nth-child(1) {
+  font-weight: 700;
+  color: white;
+}
+
+section.footer div.footerWrap div.footContainer div.logoZones img {
+  margin: 0 10px;
+}
+
+@media (max-width: 840px) {
+  section.footer {
+    background-color: #232127;
+  }
+  section.footer div.footerWrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 70px 0;
+    width: 100%;
+    position: relative;
+  }
+  section.footer div.footerWrap img.logoS {
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+    top: auto;
+    left: auto;
+  }
+  section.footer div.footerWrap div.footContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    float: right;
+  }
+  section.footer div.footerWrap div.footContainer ul {
+    list-style: none;
+  }
+  section.footer div.footerWrap div.footContainer ul li {
+    font-weight: 400;
+    color: #9e9aa7;
+  }
+  section.footer div.footerWrap div.footContainer ul li:nth-child(1) {
+    font-weight: 700;
+    color: white;
+  }
+  section.footer div.footerWrap div.footContainer div.logoZones img {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  section.footer {
+    background-color: #232127;
+  }
+  section.footer div.footerWrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 70px 0;
+    padding-bottom: 20px;
+    width: 100%;
+    position: relative;
+  }
+  section.footer div.footerWrap img.logoS {
+    position: static;
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  section.footer div.footerWrap div.footContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    float: right;
+  }
+  section.footer div.footerWrap div.footContainer ul {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+  }
+  section.footer div.footerWrap div.footContainer ul li {
+    font-weight: 400;
+    color: #9e9aa7;
+    padding-bottom: 10px;
+  }
+  section.footer div.footerWrap div.footContainer ul li:nth-child(1) {
+    font-weight: 700;
+    color: white;
+    padding-bottom: 20px;
+  }
+  section.footer div.footerWrap div.footContainer div.logoZones {
+    margin: 20px 0;
+  }
+  section.footer div.footerWrap div.footContainer div.logoZones img {
+    margin: 0 10px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

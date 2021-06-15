@@ -1,0 +1,532 @@
+div.info {
+  max-width: 1280px;
+  padding: 0;
+  margin: 0;
+}
+
+div.info div.infoWrap div.infoTxt {
+  text-align: center;
+  padding-bottom: 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+div.info div.infoWrap div.infoTxt h2 {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+
+div.info div.infoWrap div.infoTxt p {
+  color: #9e9aa7;
+  font-size: 18px;
+}
+
+div.info div.infoWrap div.boxZone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+div.info div.infoWrap div.boxZone::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 10px;
+  background-color: #2acfcf;
+  top: 50%;
+  left: 10%;
+  z-index: 1;
+}
+
+div.info div.infoWrap div.boxZone div.infoBox {
+  width: 33%;
+  margin: 0 15px;
+  position: relative;
+  height: 300px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 30px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+div.info div.infoWrap div.boxZone div.infoBox:nth-child(2) {
+  margin-top: 50px;
+}
+
+div.info div.infoWrap div.boxZone div.infoBox:nth-child(3) {
+  margin-top: 100px;
+}
+
+div.info div.infoWrap div.boxZone div.infoBox h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+div.info div.infoWrap div.boxZone div.infoBox p {
+  color: #9e9aa7;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+div.info div.infoWrap div.boxZone div.infoBox div.infoImgZone {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: -50px;
+  border-radius: 9999px;
+  background-color: #35323e;
+}
+
+@media (max-width: 1024px) {
+  div.info {
+    max-width: 1280px;
+    padding: 0;
+    margin: 0;
+  }
+  div.info div.infoWrap div.infoTxt {
+    text-align: center;
+    padding-bottom: 100px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  div.info div.infoWrap div.infoTxt h2 {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+  div.info div.infoWrap div.infoTxt p {
+    color: #9e9aa7;
+    font-size: 18px;
+  }
+  div.info div.infoWrap div.boxZone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
+  div.info div.infoWrap div.boxZone::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 10px;
+    background-color: #2acfcf;
+    top: 50%;
+    left: 10%;
+    z-index: 1;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox {
+    width: 33%;
+    margin: 0 15px;
+    position: relative;
+    height: 300px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 20px;
+    border-radius: 5px;
+    z-index: 2;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox:nth-child(2) {
+    margin-top: 50px;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox:nth-child(3) {
+    margin-top: 100px;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox p {
+    color: #9e9aa7;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox div.infoImgZone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: -50px;
+    border-radius: 9999px;
+    background-color: #35323e;
+  }
+}
+
+@media (max-width: 844px) {
+  div.info {
+    max-width: 1280px;
+    padding: 0;
+    margin: 0;
+  }
+  div.info div.infoWrap div.infoTxt {
+    text-align: center;
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  div.info div.infoWrap div.infoTxt h2 {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+  div.info div.infoWrap div.infoTxt p {
+    color: #9e9aa7;
+    font-size: 18px;
+  }
+  div.info div.infoWrap div.boxZone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  div.info div.infoWrap div.boxZone::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 80%;
+    background-color: #2acfcf;
+    top: 10%;
+    left: 50%;
+    z-index: 1;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox {
+    width: 90%;
+    margin: 0 15px;
+    position: relative;
+    height: 300px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 30px;
+    border-radius: 5px;
+    margin: 100px 0;
+    z-index: 2;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox:nth-child(2) {
+    margin-top: 0;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox:nth-child(3) {
+    margin-top: 0;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox p {
+    color: #9e9aa7;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox div.infoImgZone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: -50px;
+    border-radius: 9999px;
+    background-color: #35323e;
+  }
+}
+
+@media (max-width: 501px) {
+  div.info {
+    max-width: 1280px;
+    padding: 0;
+    margin: 0;
+  }
+  div.info div.infoWrap div.infoTxt {
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  div.info div.infoWrap div.infoTxt h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+  div.info div.infoWrap div.infoTxt p {
+    color: #9e9aa7;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  div.info div.infoWrap div.boxZone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  div.info div.infoWrap div.boxZone::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 80%;
+    background-color: #2acfcf;
+    top: 10%;
+    left: 50%;
+    z-index: 1;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox {
+    width: 90%;
+    margin: 0 15px;
+    position: relative;
+    height: 300px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 30px;
+    border-radius: 5px;
+    margin: 100px 0;
+    z-index: 2;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox:nth-child(2) {
+    margin-top: 0;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox:nth-child(3) {
+    margin-top: 0;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox p {
+    text-align: center;
+    color: #9e9aa7;
+    line-height: 30px;
+    font-size: 16px;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox div.infoImgZone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: -50px;
+    border-radius: 9999px;
+    background-color: #35323e;
+  }
+}
+
+@media (max-width: 370px) {
+  div.info {
+    max-width: 1280px;
+    padding: 0;
+    margin: 0;
+  }
+  div.info div.infoWrap div.infoTxt {
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  div.info div.infoWrap div.infoTxt h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+  div.info div.infoWrap div.infoTxt p {
+    color: #9e9aa7;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  div.info div.infoWrap div.boxZone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  div.info div.infoWrap div.boxZone::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 80%;
+    background-color: #2acfcf;
+    top: 10%;
+    left: 50%;
+    z-index: 1;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox {
+    width: 90%;
+    margin: 0 15px;
+    position: relative;
+    height: 300px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px;
+    border-radius: 5px;
+    margin: 100px 0;
+    z-index: 2;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox:nth-child(2) {
+    margin-top: 0;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox:nth-child(3) {
+    margin-top: 0;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox p {
+    text-align: center;
+    color: #9e9aa7;
+    line-height: 30px;
+    font-size: 16px;
+  }
+  div.info div.infoWrap div.boxZone div.infoBox div.infoImgZone {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: -50px;
+    border-radius: 9999px;
+    background-color: #35323e;
+  }
+}
+/*# sourceMappingURL=info.css.map */
